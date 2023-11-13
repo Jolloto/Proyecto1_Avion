@@ -5,7 +5,7 @@ using UnityEngine;
 public class Game_Object : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    [SerializeField] private Vector3 offset = new Vector3(0, 5, -10);
+    [SerializeField] private Vector3 offset = new Vector3();
   
 
 
